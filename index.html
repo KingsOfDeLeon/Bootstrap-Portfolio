@@ -3,48 +3,101 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homework2</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<body>
+<body class="bgImage">
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-              
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                      </div>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
-                  </ul>
-                  <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                  </form>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container">
+                    <a class="navbar-brand js-scroll-trigger display-1" href="./index.html">Luke DeLeon</a>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ml-auto navbar-right">
+                            <li class="nav-item">
+                                <a class="nav-link js-scroll-trigger text-white" href="./index.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link js-scroll-trigger text-white disabled" href="#">|</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link js-scroll-trigger text-white" href="./portfolio.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link js-scroll-trigger text-white disabled" href="#">|</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link js-scroll-trigger text-white" href="./contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-              </nav>
+            </nav>
+
+    <main id="about">
+        <div class="container bg-white">
+            <div class="row">
+                <div class="col-sm mx-auto py-4">
+                    <h1 class="pl-3 pt-2">About Me</h1>
+                    <hr>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-sm-3 mx-auto pb-3">
+                    <img id="profilePic" src="./assets/images/Profile.png" alt="lol it me">
+                </div>
+                <div class="col-sm-9 mx-auto">
+                    <div class="pl-1 pr-3 pt-3">
+                        <p>
+                            Hi I'm Luke, I'm currently a Configuration Analyst specializing in Marketing at a company
+                            called
+                            VizExplorer, based in beautiful San Diego California.
+                            VizExplorer is a software company focusing on improving operational intelligence to maximize
+                            client revenue
+                            streams. Currently we're making huge strides
+                            in improving the casino gaming industry through the use of proprietary data visualization
+                            software as well
+                            as industry expertise. I specifically am responsible
+                            for deployments and upgrades of VizExplorer software with a heavy influence on the
+                            progression
+                            of new
+                            technology and products. </p>
+                        <br>
+                        <p>
+                            I graduated with a computer science degree from San Diego State University in the fall of
+                            2016.
+                            I wanted to
+                            be a developer since the 8th grade. What kicked off my fascination
+                            for development was of course video games! Currently I'm enrolled in UCSD's Full Stack
+                            Development Bootcamp
+                            for more practical experience. If you have a chance, check out my
+                            portfolio!
+                        </p>
+                        <p class="mb-5">
+                            In my depressingly small amount of freetime, I enjoy playing video games! Legend of Zelda,
+                            Fire
+                            Emblem,
+                            Hearthstone, and Final Fantasy are some titles that I'm playing right now.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+    <footer class="container-fluid fixed-bottom">
+        <div class="row">
+            <div class="col-sm-12 text-center bg-dark text-white">
+                <p>Copyright &copy;</p>
+            </div>
+
+        </div>
+    </footer>
+
 
 
 </body>
